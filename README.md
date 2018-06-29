@@ -14,3 +14,6 @@ open tangram.html in a browser. To make a distribution in bin
 directory, say make rel.
 
 The directory doc contains an auxiliary latex file.
+
+A working copy can be found
+[here](https://shgalus.github.io/tangram/tangram.html).
