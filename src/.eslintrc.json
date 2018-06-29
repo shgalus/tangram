@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": "off",
+    "indent": [
+      "error",
+      2,
+      {
+        "VariableDeclarator": 2,
+        "CallExpression": {"arguments": "first"},
+        "ArrayExpression": "first"
+      }
+    ],
+    "linebreak-style": ["error", "unix"],
+    "quotes": "off",
+    // "quotes": ["error", "double", {"avoidEscape": true}],
+    "semi": ["error", "always"],
+    "max-len": ["error", { "code": 70 }],
+    "no-tabs": "error"
+  },
+  "globals": {
+    "Konva": false,
+    "jQuery": false,
+    "$": false
+  }
+}

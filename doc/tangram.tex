@@ -1,0 +1,58 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+
+\title{Tangram}
+\author{Stanis{\l}aw Galus}
+\date{28 June 2018}
+\begin{document}
+\maketitle
+
+\nocite{loyd-1968}
+\nocite{johnston-1979}
+
+\begin{figure}[h]
+  \begin{picture}(360, 360)
+    \put(30, 30){\line(0, 0){300}}
+    \put(30, 30){\line(300, 0){300}}
+    \put(330, 30){\line(0, 0){300}}
+    \put(30, 330){\line(300, 0){300}}
+    \put(30, 30){\line(1, 1){300}}
+    \put(30, 330){\line(1, -1){225}}
+    \put(180, 30){\line(1, 1){150}}
+    \put(255, 105){\line(0, 0){150}}
+    \put(180, 30){\line(-1, 1){75}}
+    % Coordinates of vertices.
+    \put(3, 30){$(0, 1)$}
+    \put(3, 330){$(0, 0)$}
+    \put(333, 330){$(1, 0)$}
+    \put(333, 30){$(1, 1)$}
+    \put(185, 178){$(\frac{1}{2}, \frac{1}{2})$}
+    \put(110, 103){$(\frac{1}{4}, \frac{3}{4})$}
+    \put(170, 15){$(\frac{1}{2}, 1)$}
+    \put(260, 103){$(\frac{3}{4}, \frac{3}{4})$}
+    \put(260, 253){$(\frac{3}{4}, \frac{1}{4})$}
+    \put(335, 178){$(1, \frac{1}{2})$}
+    % Lengths.
+    \put(33, 178){$1$}
+    \put(110, 250){$\frac{\sqrt{2}}{2}$}
+    \put(130, 150){$\frac{\sqrt{2}}{4}$}
+    \put(60, 80){$\frac{\sqrt{2}}{4}$}
+    \put(200, 220){$\frac{\sqrt{2}}{4}$}
+    \put(280, 300){$\frac{\sqrt{2}}{4}$}
+    \put(280, 150){$\frac{\sqrt{2}}{4}$}
+    \put(210, 80){$\frac{\sqrt{2}}{4}$}
+    \put(140, 80){$\frac{\sqrt{2}}{4}$}
+    \put(210, 150){$\frac{\sqrt{2}}{4}$}
+    \put(260, 178){$\frac{1}{2}$}
+    \put(320, 240){$\frac{1}{2}$}
+    \put(320, 100){$\frac{1}{2}$}
+    \put(100, 40){$\frac{1}{2}$}
+    \put(250, 40){$\frac{1}{2}$}
+    \put(170, 320){$1$}
+  \end{picture}
+  \caption{Tangram \cite[page~381]{pijanowski-2006}.}
+\end{figure}
+
+\bibliographystyle{plain}
+\bibliography{sgalus}
+\end{document}

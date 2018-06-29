@@ -1,0 +1,6 @@
+bin
+src/images
+src/jquery-3.3.1.min.js
+src/jquery-ui.min.css
+src/jquery-ui.min.js
+src/konva.min.js

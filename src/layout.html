@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangram</title>
+    <link rel="stylesheet" type="text/css" href="../lib/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="tangram.css">
+    <script src="../lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../lib/jquery-ui.min.js"></script>
+    <script src="../lib/konva/2.0.3/konva.min.js"></script>
+    <script src="tangram.utils.js"></script>
+    <script src="tangram.geometry.js"></script>
+    <script src="tangram.shapes.js"></script>
+    <script src="tangram.settings.js"></script>
+    <script src="tangram.ui.js"></script>
+    <script src="tangram.main.js"></script>
+  </head>
+  <body>
+    <div id="tangram">
+      <div id="canvas"></div>
+      <div id="menu">
+        <fieldset>
+          <label id="shape-label" for="shape">Shape</label>
+          <select id="shape">
+            <option value="0">Square</option>
+            <option value="1">Bird</option>
+            <option value="2">Triangle</option>
+            <option value="3">Letter S</option>
+            <option value="4">Kite</option>
+            <option value="5">Hexagon</option>
+            <option value="6" selected="selected">Trapezoid</option>
+          </select>
+          <label id="colors-label" for="colors">Colors</label>
+          <select id="colors">
+            <option value="0">Standard</option>
+            <option value="1" selected="selected">Spring</option>
+            <option value="2">Autumn</option>
+            <option value="3">Fresh</option>
+          </select>
+          <label id="language-label" for="language">Language</label>
+          <select id="language">
+            <option value="0" selected="selected">English</option>
+            <option value="1">Polish</option>
+          </select>
+        </fieldset>
+      </div>
+      <div id="finished-dialog"></div></div>
+  </body>
+</html>
